@@ -1,0 +1,242 @@
+* {
+    margin: 0; padding: 0; box-sizing: border-box;
+    color: rgb(82, 33, 32);
+    line-height: 2;
+}
+
+.content {
+    margin-top: 2vw;
+}
+
+.grid {
+    display: grid;
+}
+header {
+    margin-top: 2vw;
+    grid-template-columns: 1fr 1fr;
+}
+nav {
+    width: 100%;
+    margin-top: 0vw;
+    left: 10%;
+}
+
+nav svg {
+    width: 80%;
+}
+
+/* .navigation-comb {
+    width: 100%;
+} */
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(255,255,200);
+}
+
+.white {
+    position: absolute;
+    background: linear-gradient( rgba(255,255,200,0.9), rgba(255,255,200,1) );
+    width: 100%;
+    height: 100vh;
+}
+
+.topLevelNav {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+/* header nav svg {
+    width: 100%;
+} */
+
+.content {
+    width: 80%;
+    margin: 2vw 10%;
+    padding: 1vw 0;
+}
+
+
+
+section {
+    background-color: rgba(245, 241, 101, 0.5);
+    padding: 4vw;
+    border-radius: 4vw;
+    margin-bottom: 2vw;
+    border-style: solid;
+    border-color: rgb(82, 33, 32);
+    border-width: 0.12vw;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    margin-bottom: 2vw;
+}
+
+h1 {
+    font-size: 6vw;
+    letter-spacing: 0.75vw;
+}
+
+.picture_7 {
+    max-width: 500px;
+}
+
+header nav div {
+    /* transform: rotate(65deg); */
+    width: 100%;
+    cursor: pointer;
+    margin-left: 0.5vw;
+    font-family: 'Cousine', monospace;
+}
+
+.statement_image {
+    margin: auto;
+}
+
+header nav div h6 {
+    line-height: 1;
+    font-size: 2.2vw;
+    margin: auto;
+    text-align: left;
+    font-weight: 100;
+    text-shadow: 0 0 0.5vw rgba(245, 241, 101, 0.5);
+}
+
+a {
+    text-decoration: none;
+    font-weight: 900;
+    transition: 0.75s;
+}
+
+.image_container {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    border-color: rgb(82, 33, 32);
+    border-width: 0.12vw;
+    border-radius: 4vw;
+}
+
+.grid {
+    display: grid;
+}
+
+.gallery-omma {
+    grid-template-columns: 3fr 5fr;
+    grid-gap: 1vw;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.omma_image_one {
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.omma_image_two {
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.omma_image_three {
+    grid-column: 1/3;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+p, a {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 2vw;
+}
+
+footer {
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: 2vw;
+    text-indent: 0px;
+}
+
+p {
+    text-indent: 50px;
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.name {
+    fill: rgb(82, 33, 32);
+}
+
+.nav_item {
+    cursor: pointer;
+}
+
+nav h6 {
+    
+}
+
+.nav-fill {
+    fill: rgba(245, 241, 101, 0.5);
+    transition: 0.5s;
+}
+
+.nav-stroke, .nav-text {
+    fill: #522120;
+}
+
+.nav-active {
+    fill: rgba(255,255,200,0.5);
+}
+
+.navAnimation {
+    animation: pulse 1s ease infinite alternate;
+}
+
+@keyframes pulse {
+    0% { fill: rgba(82, 33, 32, 0.1); }
+    100% { fill: rgba(245, 241, 101,0.5); }
+}
+
+/* .nav-fill:hover {
+    fill: rgba(255,255,200,0.3);
+} */
+
+#sectionSix p {
+    text-align: center;
+    text-indent: 0px;
+}
+
+a:hover {
+    color: rgba(82, 33, 32, 0.5);
+    text-shadow: 
+        0 15px 0 rgba(82, 33, 32, 0.1),
+        0 -15px 0 rgba(82, 33, 32, 0.1),
+        105px 0 0 rgba(82, 33, 32, 0.1),
+        -105px 0 rgba(82, 33, 32, 0.1),
+        105px 15px 0 rgba(82, 33, 32, 0.1),
+        105px -15px 0 rgba(82, 33, 32, 0.1),
+        -105px 15px 0 rgba(82, 33, 32, 0.1),
+        -105px -15px 0 rgba(82, 33, 32, 0.1),
+        0 30px 0 rgba(82, 33, 32, 0.1),
+        0 -30px 0 rgba(82, 33, 32, 0.1),
+        210px 0 0 rgba(82, 33, 32, 0.1),
+        210px 30px 0 rgba(82, 33, 32, 0.1),
+        210px -30px 0 rgba(82, 33, 32, 0.1),
+        -210px 30px 0 rgba(82, 33, 32, 0.1),
+        -210px -30px 0 rgba(82, 33, 32, 0.1),
+        105px 30px 0 rgba(82, 33, 32, 0.1),
+        105px -30px 0 rgba(82, 33, 32, 0.1),
+        -105px 30px 0 rgba(82, 33, 32, 0.1),
+        -105px -30px 0 rgba(82, 33, 32, 0.1),
+        210px 15px 0 rgba(82, 33, 32, 0.1),
+        210px -15px 0 rgba(82, 33, 32, 0.1),
+        -210px 15px 0 rgba(82, 33, 32, 0.1),
+        -210px -15px 0 rgba(82, 33, 32, 0.1),
+        -210px 0 rgba(82, 33, 32, 0.1)
+    ;
+}

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 159.35 138">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f5f165;
+      }
+
+      .cls-2 {
+        fill: #522120;
+      }
+    </style>
+  </defs>
+  <title>Asset 7</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="nav_comb">
+      <g id="nav_item_2">
+        <polygon class="cls-1" points="40.7 136.5 1.73 69 40.7 1.5 118.64 1.5 157.62 69 118.64 136.5 40.7 136.5"/>
+        <path class="cls-2" d="M117.78,3l38.1,66-38.1,66H41.57L3.46,69,41.57,3h76.21m1.73-3H39.84L0,69l39.84,69h79.67l39.84-69L119.51,0Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
